@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test name="Test(failed)" parallel="methods">
+    <classes>
+      <class name="com.serv.tests.AFSServicingScenario">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="oneTimePropertiesLoad"/>
+          <include name="loginToAmazon"/>
+          <include name="testSuiteCleanup"/>
+        </methods>
+      </class> <!-- com.serv.tests.AFSServicingScenario -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
