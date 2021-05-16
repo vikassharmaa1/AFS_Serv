@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Suite">
-  <test thread-count = "1" parallel= "methods" name="Test">
-    <classes>      
+  <test name="Test">
+    <classes>
+      <class name="com.pages.common.BaseTest"/>
       <class name="com.serv.tests.AFSServicingScenario"/>
-      <methods>
-      <include name="loginToAmazon1"></include>
-      </methods>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

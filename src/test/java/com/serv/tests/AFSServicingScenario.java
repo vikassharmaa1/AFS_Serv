@@ -1,6 +1,7 @@
 package com.serv.tests;
 
 import org.testng.annotations.Test;
+import org.testng.annotations.Test;
 import java.util.Map;
 import java.util.concurrent.TimeoutException;
 
