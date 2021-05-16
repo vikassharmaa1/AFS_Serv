@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="1" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="48" started-at="2021-05-16T10:00:47Z" finished-at="2021-05-16T10:00:47Z">
+  <suite name="Default suite" duration-ms="74" started-at="2021-05-16T12:48:49Z" finished-at="2021-05-16T12:48:49Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="48" started-at="2021-05-16T10:00:47Z" finished-at="2021-05-16T10:00:47Z">
+    <test name="Default test" duration-ms="74" started-at="2021-05-16T12:48:49Z" finished-at="2021-05-16T12:48:49Z">
       <class name="com.serv.tests.AFSServicingScenario">
-        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.serv.tests.AFSServicingScenario@64bfbc86]" name="beforeSuite" is-config="true" duration-ms="394" started-at="2021-05-16T15:30:47Z" finished-at="2021-05-16T15:30:47Z">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.serv.tests.AFSServicingScenario@617faa95]" name="beforeSuite" is-config="true" duration-ms="373" started-at="2021-05-16T18:18:49Z" finished-at="2021-05-16T18:18:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="oneTimePropertiesLoad()[pri:0, instance:com.serv.tests.AFSServicingScenario@64bfbc86]" name="oneTimePropertiesLoad" is-config="true" duration-ms="23" started-at="2021-05-16T15:30:47Z" finished-at="2021-05-16T15:30:47Z">
+        <test-method status="PASS" signature="oneTimePropertiesLoad()[pri:0, instance:com.serv.tests.AFSServicingScenario@617faa95]" name="oneTimePropertiesLoad" is-config="true" duration-ms="43" started-at="2021-05-16T18:18:49Z" finished-at="2021-05-16T18:18:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- oneTimePropertiesLoad -->
-        <test-method status="FAIL" signature="loginToAmazon1(java.util.Map)[pri:0, instance:com.serv.tests.AFSServicingScenario@64bfbc86]" name="loginToAmazon1" duration-ms="0" started-at="2021-05-16T15:30:47Z" data-provider="testData" finished-at="2021-05-16T15:30:47Z">
+        <test-method status="FAIL" signature="loginToAmazon1(java.util.Map)[pri:0, instance:com.serv.tests.AFSServicingScenario@617faa95]" name="loginToAmazon1" duration-ms="0" started-at="2021-05-16T18:18:49Z" data-provider="testData" finished-at="2021-05-16T18:18:49Z">
           <exception class="java.lang.RuntimeException">
             <message>
               <![CDATA[java.io.FileNotFoundException: ]]>
@@ -61,7 +61,7 @@ Caused by: java.io.FileNotFoundException:
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginToAmazon1 -->
-        <test-method status="PASS" signature="testSuiteCleanup()[pri:0, instance:com.serv.tests.AFSServicingScenario@64bfbc86]" name="testSuiteCleanup" is-config="true" duration-ms="4879" started-at="2021-05-16T15:30:47Z" finished-at="2021-05-16T15:30:52Z">
+        <test-method status="PASS" signature="testSuiteCleanup()[pri:0, instance:com.serv.tests.AFSServicingScenario@617faa95]" name="testSuiteCleanup" is-config="true" duration-ms="4192" started-at="2021-05-16T18:18:49Z" finished-at="2021-05-16T18:18:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSuiteCleanup -->
